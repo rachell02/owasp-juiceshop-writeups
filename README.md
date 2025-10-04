@@ -1,7 +1,7 @@
 # owasp-juiceshop-writeups
-these are my personal and intentionally a bit dumb writeups in breaking owasp juice shop, an intentionally insecure web application.
+These are my personal and intentionally a bit dumb writeups in breaking owasp juice shop, an intentionally insecure web application.
 
-tho this is how I track my progress in learning web application penetration testing 
+This is how I track my progress in learning web application penetration testing 
 
 # structure
 I categorized this not by the difficulty, but by the vulnerability to showcase the skills of breaking OWASP top 10 or common security risks
