@@ -1,4 +1,4 @@
-## Vulnerability: I was able to login Jim's account !!!
+**Vulnerability:** I was able to login Jim's account !!!
 
 ## Steps:
 1. Go to Login Page
