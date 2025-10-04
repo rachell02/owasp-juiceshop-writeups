@@ -4,7 +4,7 @@ These are my personal and intentionally a bit dumb writeups in breaking owasp ju
 This is how I track my progress in learning web application penetration testing 
 
 # structure
-I categorized this not by the difficulty, but by the vulnerability to showcase the skills of breaking OWASP top 10 or common security risks
+I organize writeups by *vulnerability* rather than difficulty, so it's easy to see examples of OWASP Top 10 issues and common security risks.
 
 # how I write the challenge
 - vulnerability (challenge name)
