@@ -12,7 +12,9 @@ The written code on SQL for login uses concatenation like:
 const query = "SELECT * FROM Users WHERE email = '" + email + "' AND password = '" + password + "';"; 
 
 when you inject ' OR 1=1--  on the email, it will be considered as part of the SQL code because that's how concatenation (+ email +) works . 
+
 For the code ' OR 1=1 -- :
+
 (') closes the email string so that we can input the SQL code OR 1=1 after it, which makes the whole code mean: 'login to a specific type of email OR true'. Since the boolean 1=1 satisfies the condition, the website will automatically use the first email in the database, which is usually the admin's email. the (--) at the end of the code is syntax for comments which will make the rest of the code after it be disregarded.
 
 ## How to fix:
